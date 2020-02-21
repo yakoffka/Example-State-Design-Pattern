@@ -5,7 +5,7 @@ require_once __DIR__ . '/../states/DraftState.php';
 /**
  * Class Invoice
  */
-class Invoice extends IDocument
+class Invoice extends ADocument
 {
     private int $sum;
     private string $partner;

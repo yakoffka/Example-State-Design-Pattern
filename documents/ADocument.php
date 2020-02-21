@@ -4,7 +4,7 @@
  * Class IDocument
  *
  */
-abstract class IDocument
+abstract class ADocument
 {
     /**
      * @var State
@@ -19,7 +19,7 @@ abstract class IDocument
     /**
      * @return State
      */
-    public function getState(): \State
+    public function getState(): State
     {
         return $this->state;
     }

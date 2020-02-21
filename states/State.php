@@ -9,17 +9,17 @@ require_once __DIR__ . '/ReviewState.php';
 abstract class State
 {
     /**
-     * @var IDocument
+     * @var ADocument
      */
-    protected IDocument $doc;
+    protected ADocument $doc;
 
     /**
      * State constructor.
-     * @param IDocument $doc
+     * @param ADocument $doc
      *
      * ссылка на объект документа: состояние знает, какому объекту принадлежит
      */
-    public function __construct(IDocument $doc)
+    public function __construct(ADocument $doc)
     {
         $this->doc = $doc;
     }
